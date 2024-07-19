@@ -1,5 +1,6 @@
 <script setup lang="ts">
     import Project from "./components/Project.vue";
+    import projects from "./data/projects.json";
 </script>
 
 <template>
@@ -7,7 +8,12 @@
         <h1>Hayk Avagyan's Portfolio</h1>
     </header>
 
-    <Project name="TUMO Editor" />
+    <Project
+        v-for="project in projects"
+        :name="project.name"
+        :src="project.src"
+        :description="project.description"
+    />
 </template>
 
 <style scoped>
