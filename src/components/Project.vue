@@ -3,10 +3,10 @@
 </script>
 
 <template>
-    <section>
-        <h1>
+    <div class="project">
+        <h2>
             <a :href="src" target="_blank">{{ name }}</a>
-        </h1>
+        </h2>
 
         <div class="container">
             <iframe
@@ -16,44 +16,47 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
             ></iframe>
-        </div>
 
-        <p>{{ description }}</p>
-    </section>
+            <p>{{ description }}</p>
+        </div>
+    </div>
 </template>
 
 <style scoped>
-    section {
+    .project {
         margin: auto;
-        width: 50%;
+        width: 90%;
         margin-bottom: 35px;
         max-width: 1280px;
     }
 
-    a {
-        text-decoration: none;
-    }
-
-    section h1 {
+    h2 {
         margin-left: 1%;
         margin-bottom: 12px;
     }
 
+    a {
+        color: #6aeb8a;
+        text-decoration: none;
+    }
+
     .container {
-        border: 5px solid#2db54c;
-        border-radius: 15px;
+        border: 7px solid #11401d;
+        background: #6aeb8a26;
         overflow: hidden;
+        box-shadow: inset 0 0 12px black;
         width: 100%;
-        aspect-ratio: 1280 / 720;
     }
 
     iframe {
+        aspect-ratio: 1280 / 720;
         width: 100%;
         height: 100%;
     }
 
     p {
-        margin-left: 1%;
-        margin-top: 12px;
+        color: #39db5e;
+        padding: 20px;
+        padding-top: 10px;
     }
 </style>

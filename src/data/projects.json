@@ -2,7 +2,7 @@
     {
         "name": "TUMO Editor",
         "src": "https://www.youtube.com/embed/8DnxyEKnW2s?si=N0AWH0g0TwJxEQdJ",
-        "description": "This is the web app that I am most proud of creating for TUMO. In my most recent position, I was developing and maintaining educational web apps for an educational program. We had learning modules where students would learn programming, but the coding editor was external and had no connection to our platform. One day, I had some free time and created a prototype for an in-house code editor that automatically tests the students' code, gives them custom feedback, and autocompletes their code. I showed the editor to my Senior Software Engineer, Head of the team and other Project Managers, and they really liked it, so we decided to work on it. I successfully developed the editor and launched it in 5 countries across multiple programming learning modules. This coding editor saves 2+ days of waiting for the students because they don't have to wait for a human to examine heir code, and it significantly reduces staff workload."
+        "description": "This is the web app that I am most proud of creating in my most recent position. At TUMO, we had learning modules where students would learn programming, but the coding editor was external and had no connection to our platform. One day, I had some free time and created a prototype for an in-house code editor that automatically tests the students' code, gives them custom feedback, and autocompletes their code. I showed the prototype to the Head of the team, Project Managers, and Senior Software Engineers, and they really liked it, so we decided to work on it. I successfully developed the editor and launched it in 5 countries across multiple programming learning modules. This coding editor saves 2+ days of waiting for the students because they don't have to wait for a human to examine their code, and it significantly reduces staff workload. I also presented the tool and all of its features to the CEO, workshop leaders, and coaches."
     },
     {
         "name": "Level Designer",
@@ -27,7 +27,7 @@
     {
         "name": "Fullsize.am",
         "src": "https://fullsize.am",
-        "description": "When working at DigitalBrains, one of the biggest projects assigned to me was creating a PHP Web Scraper which scrapes products from vega.am to fullsize.am. Both parties (stores) were aware of this, and after they provided me with the authentication details, I started working on it. I used PHP, cURL, OpenCart, and cron jobs to achieve this goal. These scripts enabled live synchronization of over 20,000 products from one vega.am to fullsize.am in real time, without using any pre-made APIs."
+        "description": "When working at DigitalBrains, one of the biggest projects assigned to me was creating a PHP Web Scraper which scrapes products from vega.am to fullsize.am. Both parties (stores) were aware of this, and after they provided us with the authentication details, I started working on it. I used PHP, cURL, OpenCart, and cron jobs to achieve this goal. These scripts enabled live synchronization of over 20,000 products from one vega.am to fullsize.am in real time, without using any pre-made APIs."
     },
     {
         "name": "Titan Arena",
