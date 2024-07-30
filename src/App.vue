@@ -1,4 +1,5 @@
 <script setup lang="ts">
+    import Intro from "./components/Intro.vue";
     import Project from "./components/Project.vue";
     import Section from "./components/Section.vue";
     import projects from "./data/projects.json";
@@ -10,7 +11,7 @@
         <h1>{{ text.header }}</h1>
     </header>
 
-    <h3 class="intro">{{ text.intro }}</h3>
+    <Intro :intro="text.intro" />
 
     <Section title="Projects">
         <Project
@@ -41,12 +42,5 @@
 
     header h1 {
         color: #6aeb8a;
-    }
-
-    .intro {
-        width: 90%;
-        margin: 30px auto;
-        max-width: 1280px;
-        text-align: center;
     }
 </style>

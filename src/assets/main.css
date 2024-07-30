@@ -13,3 +13,7 @@ body {
 :root {
     color-scheme: dark;
 }
+
+a {
+    text-decoration: none;
+}

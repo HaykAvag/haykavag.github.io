@@ -9,9 +9,9 @@
             <h1>{{ title }}</h1>
             <div class="border"></div>
         </div>
-    </div>
 
-    <slot />
+        <slot />
+    </div>
 </template>
 
 <style scoped>
